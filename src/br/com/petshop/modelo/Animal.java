@@ -3,8 +3,9 @@ package br.com.petshop.modelo;
 public class Animal {
 	private Integer id;
 	private String Nome;
-	private Integer id_Dono;
-	private Integer id_Tipo_Animal;
+	private Integer idDono;
+	private Integer idTipoAnimal;
+	
 	public Integer getId() {
 		return id;
 	}
@@ -18,16 +19,16 @@ public class Animal {
 		Nome = nome;
 	}
 	public Integer getId_Dono() {
-		return id_Dono;
+		return idDono;
 	}
 	public void setId_Dono(Integer id_Dono) {
-		this.id_Dono = id_Dono;
+		this.idDono = id_Dono;
 	}
 	public Integer getId_Tipo_Animal() {
-		return id_Tipo_Animal;
+		return idTipoAnimal;
 	}
 	public void setId_Tipo_Animal(Integer id_Tipo_Animal) {
-		this.id_Tipo_Animal = id_Tipo_Animal;
+		this.idTipoAnimal = id_Tipo_Animal;
 	}
 	
 	

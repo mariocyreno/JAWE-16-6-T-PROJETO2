@@ -1,13 +1,13 @@
 package br.com.petshop.modelo;
 
 public class TipoAnimal {
-	private Integer Tipo_Animal_id;
+	private Integer TipoAnimalid;
 	private String Tipo;
-	public Integer getTipo_Animal_id() {
-		return Tipo_Animal_id;
+	public Integer getTipoAnimalid() {
+		return TipoAnimalid;
 	}
-	public void setTipo_Animal_id(Integer tipo_Animal_id) {
-		Tipo_Animal_id = tipo_Animal_id;
+	public void setTipo_Animal_id(Integer tipoAnimalid) {
+		TipoAnimalid = tipoAnimalid;
 	}
 	public String getTipo() {
 		return Tipo;
