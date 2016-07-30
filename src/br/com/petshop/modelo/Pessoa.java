@@ -2,17 +2,17 @@ package br.com.petshop.modelo;
 
 public class Pessoa {
 
-	private int id;
+	private Integer id;
 	private String Nome;
 	private String Cpf;
 	private String Telefone;
 	private String Email;
 	
 	
-	public int getId() {
+	public Integer getId() {
 		return id;
 	}
-	public void setId(int id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 	public String getNome() {
@@ -39,6 +39,7 @@ public class Pessoa {
 	public void setEmail(String email) {
 		Email = email;
 	}
+	
 	
 	
 }
